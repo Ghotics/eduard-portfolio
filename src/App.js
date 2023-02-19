@@ -1,10 +1,10 @@
 import './App.scss';
-import ContactBar from './components/ContactBar';
+import TopBar from './components/TopBar/TopBar';
 
 function App() {
   return (
     <div className="App">
-      <ContactBar />
+      <TopBar />
     </div>
   );
 }
