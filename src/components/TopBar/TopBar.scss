@@ -4,10 +4,15 @@
 }
 
 .quick-container {
-  display: flex;
+  display: inline-block;
   justify-content: space-evenly;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-top: 5px;
 }
 
 .topbar {
   background-color: red;
+  display: flex;
+  justify-content: space-between;
 }
